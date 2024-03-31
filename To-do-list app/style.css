@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  padding: 10px;
+}
+.to-app{
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px; 
+  border-radius: 10px;
+}
+.to-app h2{
+  color: #333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.to-app h2 img{
+  width: 30px;
+  margin-left: 10px;
+}
+
+/* css for the search button */
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  background: #cce0fa;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+.row input{
+  border: none;
+  outline: none;
+  flex: 1;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+}
+.row button{
+  background: #f05934;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 16px 50px;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* css for the list */
+
+ul li{
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+ul li::before{
+  content: '';
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background-image: url(unchecked.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  left: 8px;
+  top: 12px;
+}
+
+ul li.checked{
+  color: #000;
+  text-decoration: line-through;
+}
+
+ul li.checked::before{
+  background-image: url(checked.png);
+}
+
+/* css for the delete button */
+ul li span{
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  font: size 22px; ;
+  color: #f05934;
+  cursor: pointer;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+ul li span:hover{
+  background: #7c7b7b;
+}
