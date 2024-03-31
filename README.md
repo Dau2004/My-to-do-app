@@ -19,7 +19,7 @@ To build the Docker image and run a container using the image, follow these step
 3. Navigate to the project directory: cd to-do-list
 4. Build the Docker image using the provided Dockerfile:docker build -t my-to-do-app .
 5. Once the image is built, you can run a container using the following command:docker run -d -p 8080:80 my-to-do-app
-6. Access the application by navigating to http://localhost:8080 in your web browser.
+6. Access the application by navigating to (http://localhost:9999) in your web browser.
 
 ## Assumptions or Decisions Made During Development
 **Lightweight Stack:** The application was built using only HTML, CSS, and JavaScript to keep it lightweight and easy to deploy.
