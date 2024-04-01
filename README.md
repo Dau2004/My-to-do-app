@@ -1,7 +1,7 @@
 # To-Do List Web Application
 This is a simple to-do list web application built using HTML, CSS, and JavaScript. The application allows users to add new tasks, view the list of tasks, and mark tasks as completed.
 
-[Link to the slide]{https://www.canva.com/design/DAGBMZmMH38/OGPo11dL8qZjL_zN24VOVA/edit?utm_content=DAGBMZmMH38&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton}
+[Link to the slide](https://www.canva.com/design/DAGBMZmMH38/OGPo11dL8qZjL_zN24VOVA/edit?utm_content=DAGBMZmMH38&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## How to Run the Application Locally
 To run the application locally, follow these steps:
